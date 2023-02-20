@@ -12,6 +12,7 @@ import androidx.fragment.app.FragmentActivity
  */
 object PermissionX {
     private const val TAG = "InvisibleFragment"
+    @JvmStatic
     fun request(
         activity: FragmentActivity,
         vararg permissions: String,
