@@ -8,7 +8,10 @@ import androidx.fragment.app.FragmentActivity
  * @Project_Name: com.permissionx.permissionx
  * @Email:420498246@qq.com
  * @Description:
- * @TODO:  权限 ZL X
+ * @TODO:  权限 java也可以调用
+ *
+ *
+ *
  */
 object PermissionX {
     private const val TAG = "InvisibleFragment"
@@ -31,4 +34,21 @@ object PermissionX {
     }
 
 
-}
+}    //测试
+//private void RequestPermission_Test() {
+//
+//    PermissionX.request(this, new String[]{Manifest.permission.CALL_PHONE, Manifest.permission.CAMERA}, new Function2<Boolean, List<String>, Unit>() {
+//        @Override
+//        public Unit invoke(Boolean aBoolean, List<String> strings) {
+//            if (aBoolean) {
+//                call();
+//                Toast.makeText(MainActivity.this, "All permissions are granted", Toast.LENGTH_SHORT).show();
+//            } else {
+//
+//                Toast.makeText(MainActivity.this, "You denied $deniedList", Toast.LENGTH_SHORT).show();
+//            }
+//
+//            return null;
+//        }
+//    });
+//}
