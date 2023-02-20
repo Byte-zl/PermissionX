@@ -8,7 +8,7 @@ import androidx.fragment.app.FragmentActivity
  * @Project_Name: com.permissionx.permissionx
  * @Email:420498246@qq.com
  * @Description:
- * @TODO:  权限 java也可以调用权限
+ * @TODO:  权限 java也可以调用权限。。
  *
  *
  *
